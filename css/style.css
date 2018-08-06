@@ -1,0 +1,157 @@
+
+html{
+		background-color: #bcbfc4;
+}
+
+.container{
+	width: 80%;
+	margin:10px auto;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+.alba{
+	background-color: black;
+	color:white;
+}
+.neagra{
+	background-color: white;
+	color: black;
+}
+
+header{
+	margin-top:-55px;
+	letter-spacing: 1px;
+	font-family: Impact, Charcoal, sans-serif;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+}
+header p{
+	padding: 5px;
+
+}
+
+.b{
+	font-size: 40px;
+}
+menu{
+	text-align: center;
+	margin-left: -40px;
+}
+
+menu p{
+	letter-spacing: 1px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	text-align: center;
+ }
+menu button{
+	margin: 0 auto;
+	margin-top: -10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #bc0000;
+	padding: 15px;
+	background-color:#aaaaaa;
+}
+
+footer{
+	padding: 5px;
+	letter-spacing: 1px;
+	font-family: Impact, Charcoal, sans-serif;
+	color:white;
+	text-align: center;
+	background-color: black;
+}
+#white-button{
+	color:#e5e5e5;
+}
+#black-button{
+	color:#2d2d2d;
+}
+#start-game{
+	color: #5e5e5e;
+}
+#start-game:hover{
+	color: #0f0f0f;
+	border:2px solid #0f0f0f;
+}
+#white-button:hover{
+	color:white;
+	border:2px solid white;
+}
+#black-button:hover{
+	color:#0f0f0f;
+	border:2px solid #0f0f0f;
+}
+#user-date{
+	float:left;
+	text-align: left;
+	margin-left: 10px;
+	margin-top:-50px;
+	font-size: 15px;
+}
+#stats{
+	position: absolute;
+	text-align: center;
+	margin-top: 130px;
+	margin-left: 60px;
+	color:#898989;
+
+}
+#circle{
+	position: relative;
+	height: 300px;
+ 	width: 300px;
+	margin: 50px auto;
+	border: 2px solid #808182;
+	border-radius: 50%;
+}
+
+#user-name{
+
+	border-style:none;
+	display: block;
+	margin: 0 auto;
+	margin-top:-35px;
+	margin-bottom:20px;
+	text-indent: 15px;
+	padding: 15 2px 15px 0;
+
+}
+
+#user-name:hover{
+	border:2px solid black;
+}
+#bet{
+	border:2px solid white;
+	margin-left: -60px;
+	float:left;
+	margin-top:3px;
+	max-height: 20px;
+	width: 100px;
+}
+
+#bet:hover, #bet:focus{
+
+	padding: 13px;
+	margin-top:-4px;
+	max-height: 25px;
+	width: 100px;
+	font-size:25px;
+	border:2px solid black;
+}
+@media(max-width:600px)
+{
+	#stats, #circle{
+		margin-top:100px;
+	}
+	#user-date, #bet{
+		position: inline;;
+		margin-left: 100px;
+		margin-top:-100px;
+		font-size: 15px;
+	}
+}
